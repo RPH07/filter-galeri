@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsif.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7bc0a56e07.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <title>Reyzen | Galeri</title>  
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Reyzen</h1>
+        </div>
+        <nav class="nav">
+            <ul class="menu-list">
+                <li class="nav-item">
+                    <a href="https://reyzen.netlify.app/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="filter">
+        <button class="filter-btn active" data-filter="all" id="utama">Semua</button>
+        <button class="filter-btn" data-filter=".pantai">Pantai</button>
+        <button class="filter-btn" data-filter=".pedesaan">Pedesaan</button>
+        <button class="filter-btn" data-filter=".sawah">Sawah</button>
+        <button class="filter-btn" data-filter=".gunung">Gunung</button>
+    </section>
+    
+    
+    <section class="gallery">
+        
+        <div class="galeri-img">
+            <div class="container-img" id="galleri">
+
+                <div class="card1">
+                    <div class="hidden-card card pantai">
+                        <img src="https://reyzen.netlify.app/image/img/full/pantai3.jpg" alt="Pemandangan pantai"><p>lorem</p>
+                    </div>
+                </div>
+
+                <div class="card2">
+                    <div class="hidden-card card pedesaan gunung">
+                        <img src="https://reyzen.netlify.app/image/img/full/pedesaan.jpg" alt="Pemandangan pedesaan"><p>lorem</p>
+                    </div>
+                </div>
+
+                <div class="card3">
+                    <div class="hidden-card card sawah">
+                        <img src="https://reyzen.netlify.app/image/img/full/sawah.jpg" alt="Pemandangan sawah"><p>lorem</p>
+                    </div>
+                </div>
+
+                <div class="card4 ">
+                    <div class="hidden-card card gunung">
+                        <img src="https://reyzen.netlify.app/image/img/full/gunung.jpg" alt="Pemandangan bukit berhutan"><p>lorem</p>
+                    </div> 
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <footer>
+        <div class="judul-web">
+            <h1>Reyzen</h1>
+        </div>
+        <div class="copyright">
+            <h6>Copyright &copy 2010
+                <script>
+                    new Date().getFullYear() > 2023 && document.write("- " + new Date().getFullYear());
+                </script> Reyzen
+            </h6>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/RPH07/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/0xrey.sol/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://dribbble.com/rabb1t07" target="_blank"><i class="fa fa-dribbble"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

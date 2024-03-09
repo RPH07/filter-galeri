@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFCF2; 
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+header h1{
+    font-size: 22px;
+}
+
+ul{
+    display: flex;
+    position: relative;
+    left: 5px;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger{
+    display: none;
+    
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+.menu-list li:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.filter{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+}
+
+.filter button:hover, #utama:hover{
+    background-color:antiquewhite;
+}
+
+.filter button{
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+
+.galeri-img{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+p{
+    margin: 3px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    margin-top: 30px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.27);
+}
+
+.filter-btn.active {
+    background-color:antiquewhite;
+    color: black;
+}
+
+
+
+/* Konten Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1{
+    font-size: 20px;
+}
+
+footer a{
+    color: black;
+}
+
+.copyright{
+    font-size: 18px;
+}
+
+.social-media{
+    font-size: 22px;
+}
