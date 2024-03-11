@@ -49,16 +49,20 @@ li a{
 
 .bar{
     display: block;
-    width: 25px;
+    width: 27px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #393D3F;
+    background-color: #98d6ea;
+}
+
+#satu, #tiga{
+    width: 15px;
 }
 
 .menu-list li:hover{
-    text-decoration: underline;
+    text-decoration: underline 3px #98d6ea;
     transition: 0.5s;
 }
 
