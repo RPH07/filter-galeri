@@ -5,13 +5,14 @@ html {
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
+    background-color: #98d6ea;
 }
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFCF2; 
+    background-color: white; 
     padding: 10px 20px;
     position: sticky;
     top: 0;
@@ -21,6 +22,7 @@ header{
 
 header h1{
     font-size: 22px;
+    color: #98d6ea;
 }
 
 ul{
@@ -37,7 +39,7 @@ li{
 
 li a{
     text-decoration: none;
-    color: black;
+    color: #393D3F;
 }
 
 .hamburger{
@@ -52,7 +54,7 @@ li a{
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #393D3F;
 }
 
 .menu-list li:hover{
@@ -62,13 +64,14 @@ li a{
 
 .filter{
     display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
 .filter button:hover, #utama:hover{
-    background-color:antiquewhite;
+    background-color:white;
+    color: #98d6ea;
 }
 
 .filter button{
@@ -76,7 +79,11 @@ li a{
     cursor: pointer;
     width: 100px;
     height: 50px;
+    font-size: 0.8rem;
     margin: 5px;
+    border-radius: 10px;
+    background-color:#393D3F;
+    color: #FDFDFF;
 }
 
 
@@ -109,14 +116,14 @@ p{
     border-radius: 20px;
     height: 300px;
     margin-top: 30px;
-    margin: 10px;
+    margin: 6px;
     padding: 10px;
     box-shadow: 10px 10px 26px -5px rgba(0,0,0,0.27);
 }
 
 .filter-btn.active {
-    background-color:antiquewhite;
-    color: black;
+    background-color:white;
+    color: #98d6ea;
 }
 
 
@@ -125,24 +132,39 @@ p{
 footer{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    padding: 50px;
+    padding: 15px;
     align-items: center;
     text-align: center;
+    color: #393D3F;
+    background-color: white;
+    margin: 0;
 }
 
 footer h1{
     font-size: 20px;
+    color: #98d6ea;
+    
 }
 
 footer a{
-    color: black;
+    color: #393D3F;
+    text-decoration: none;
 }
 
 .copyright{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .social-media{
     font-size: 22px;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-dribbble:hover{
+    color: pink;
+    transition: 0.3s;
 }
